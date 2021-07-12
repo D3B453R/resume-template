@@ -119,6 +119,59 @@ img.avatar {
 }
 
 /***********************************
+* =Praktika
+***********************************/
+
+.praktika {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.praktika:last-child {
+  border-bottom: none;
+}
+
+.praktika-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.praktika-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+/***********************************
+* =School
+***********************************/
+
+.school {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.school:last-child {
+  border-bottom: none;
+}
+
+.school-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.school-name {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+/***********************************
 * =Skills
 ***********************************/
 
